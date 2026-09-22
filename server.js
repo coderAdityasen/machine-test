@@ -14,7 +14,7 @@ app.get("/", (req,res)=>{
 app.use("/wallet", walletroute)
 
 app.listen(3005,()=>{
-	console.log(`server is running`);
+	console.log(`server is running on the port http://localhost:${3005}`);
 })
 
 
